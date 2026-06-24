@@ -1,3 +1,5 @@
+version: 2
+
 sources:
   - name: jaffle_shop
     database: raw
@@ -14,7 +16,3 @@ sources:
               count: 1
               period: day
           loaded_at_field: _etl_loaded_at
-          
-  - name: stripe
-    tables:
-      - name: payment
